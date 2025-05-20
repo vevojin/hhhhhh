@@ -1,1 +1,1223 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _bYIkQuPYsXEV = a; end)); return(function(u,...)local c;local d;local t;local b;local o;local r;local e=24915;local n=0;local l={};while n<748 do n=n+1;while n<0x171 and e%0x2708<0x1384 do n=n+1 e=(e-189)%37910 local a=n+e if(e%0x12a6)<0x953 then e=(e+0x341)%0x94e while n<0x2d9 and e%0x2af6<0x157b do n=n+1 e=(e+398)%31920 local d=n+e if(e%0x4a5c)>=0x252e then e=(e*0x4a)%0x81c1 local e=44770 if not l[e]then l[e]=0x1 t=getfenv and getfenv();end elseif e%2~=0 then e=(e-0x145)%0x6977 local e=22145 if not l[e]then l[e]=0x1 o={};end else e=(e*0x153)%0x4b81 n=n+1 local e=64850 if not l[e]then l[e]=0x1 r=string;end end end elseif e%2~=0 then e=(e-0xed)%0x583a while n<0x3db and e%0x1728<0xb94 do n=n+1 e=(e-79)%4978 local d=n+e if(e%0x2784)>=0x13c2 then e=(e-0x30a)%0x257a local e=43573 if not l[e]then l[e]=0x1 end elseif e%2~=0 then e=(e+0xc2)%0x26f1 local e=16247 if not l[e]then l[e]=0x1 t=(not t)and _ENV or t;end else e=(e+0x299)%0xad7d n=n+1 local e=29550 if not l[e]then l[e]=0x1 end end end else e=(e+0x56)%0x7f00 n=n+1 while n<0x222 and e%0x40f2<0x2079 do n=n+1 e=(e+997)%40024 local a=n+e if(e%0x1072)<0x839 then e=(e-0x279)%0x733c local e=73429 if not l[e]then l[e]=0x1 b=tonumber;end elseif e%2~=0 then e=(e*0x32c)%0x786d local e=39385 if not l[e]then l[e]=0x1 c="\4\8\116\111\110\117\109\98\101\114\122\70\113\119\95\117\85\83\0\6\115\116\114\105\110\103\4\99\104\97\114\106\108\109\70\69\70\109\76\0\6\115\116\114\105\110\103\3\115\117\98\113\76\110\74\83\105\107\84\0\6\115\116\114\105\110\103\4\98\121\116\101\110\74\116\109\79\100\116\98\0\5\116\97\98\108\101\6\99\111\110\99\97\116\103\103\118\69\110\112\121\66\0\5\116\97\98\108\101\6\105\110\115\101\114\116\111\71\85\88\82\72\88\111\5";end else e=(e-0x48)%0x741b n=n+1 local e=20835 if not l[e]then l[e]=0x1 d=function(d)local e=0x01 local function l(n)e=e+n return d:sub(e-n,e-0x01)end while true do local n=l(0x01)if(n=="\5")then break end local e=r.byte(l(0x01))local e=l(e)if n=="\2"then e=o.zFqw_uUS(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then t[e]=function(e,n)return u(8,nil,u,n,e)end elseif n=="\4"then e=t[e]elseif n=="\0"then e=t[e][l(r.byte(l(0x01)))];end local n=l(0x08)o[n]=e end end end end end end end e=(e+530)%36203 end d(c);local n={};for e=0x0,0xff do local l=o.jlmFEFmL(e);n[e]=l;n[l]=e;end local function f(e)return n[e];end local r=(function(a,d)local c,l=0x01,0x10 local n={{},{},{}}local t=-0x01 local e=0x01 local r=a while true do n[0x03][o.qLnJSikT(d,e,(function()e=c+e return e-0x01 end)())]=(function()t=t+0x01 return t end)()if t==(0x0f)then t=""l=0x000 break end end local t=#d while e<t+0x01 do n[0x02][l]=o.qLnJSikT(d,e,(function()e=c+e return e-0x01 end)())l=l+0x01 if l%0x02==0x00 then l=0x00 o.oGUXRHXo(n[0x01],(f((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+r)%0x100)));r=a+r;end end return o.ggvEnpyB(n[0x01])end);d(r(170,":)EnxYH{vT.LNCtPYL"));d(r(251,"<M2?Z#=0-IKwi:yA1#M(-2---w-0IM-A?MI=KiKIwM-wiuKPiwKZ:-:yii020-y-yoy?A?A-:y^?MMMMAK2Z2x2=wKi????K?=ZWZw?w?f?:#w?i#i=IZIFZHA-M-0-K-=I_-y?MIyI0KAK?K:iZI2I:K2KZw2KKKy020wyIy2AKA?I#xMAykZMiMIM=Mw?2M#M?M?M0Mi:Ky0#?ZK#y#i#I=:#A00=I=A0y0i0y=Z-&0MKZ0:KKKyZ-#3KZw-ww:M:M:IIAy#w0i-y::=y2yMA-I:K2MKvIM=2=2K2?M#?-2?2=Z220yMy#22?IZ##w=K#?Zy-M0?MK2?IZIZI:K?K=K2KiKKKMI-isIKw?iAwM:Z0h0Kyyy3y=A#A?IIr:awM2{- AMis-M:JK?y2i2y?A2#y2yI#:#w=2#-#A=i0i#M#M=I=w-9Id0w?2?-K-KAKww#iSiMi#w?:Mi:iIiMi=0:-ZA=y:AIA0AKM8y:*iAi2#AyMA?MMKiI:2ZS?I#MZKyi#2#:=#=K02Z=0#===wIM=0=I0#?2"));local e=(-1638+(function()local d,t=0,1;(function(e,n,l)e(e(n,n,l),l(l,e,n),l(e,n,e))end)(function(l,e,n)if d>292 then return e end d=d+1 t=(t+915)%41129 if(t%1034)>=517 then return n else return e(n(n,e and n,l and n),l(l,l,n),n(e,e,e))end return n(e(l,n,e and l),l(n,l,e)and e(l,e,e),e(l,e and n,n))end,function(n,l,e)if d>449 then return n end d=d+1 t=(t+593)%5034 if(t%928)>=464 then return l(e(l,e,e and e)and l(l,n,n),n(l and n,l,l and e),e(e,e,n)and l(n,n and n,e))else return l end return e end,function(n,l,e)if d>413 then return n end d=d+1 t=(t+665)%46812 if(t%1714)<857 then return e(n(e,n,e and e),e(l,n and l,n)and e(e,l,l and n),e(n,e,n))else return n end return e end)return t;end)())local j=(getfenv)or(function()return _ENV end);local f=o.vFATQalR or o.RbJyb_kL;local g=1;local d=2;local c=4;local t=3;local function _(s,...)local h=r(e,"K;bCtpczYku9A%Mr;%bAtbpYcMY9ku9oAcbtcczAYMz9ur%tzc9Cub9YAMCYcbzkkkpA9Y%;MurkAuCzCzprbbYYuv9CAM%pMk;G;zbArMc9zCktkMcAurMzr%;b?%Cptk;AcYp9CMkucuYHkc;tCctApMzzptprzpAM%CrrAA;9CCptpMY;Ytu%A;AkMArC;pbutct%cAYYpYuCAp%k9;vM;CCutkpzzrt9ku9XAcuCrAFp;ACr;;cjzCYpkMACkpMkrC;;bAFCCAtppzz0Yrk%kAr;rM9fAu%ArbhYYpkp9zApzcupub9YAMC;ckzrktYr9zA9%%Mz;MCbCrpuckY9zcu%9M%tM9?urCCApbccwub%CctAcb%zr#r%}CC9Czz;cbY;9;uAur%ckc9cAb%YMMz.Ykk;uuArMcru4zbbC;MPrc_AbbCYpActzuk6ucAJ%bMYrM;pbutPpczMYukYuMAt%rrPgc;AttpYpMztYuuc9cAAMb;MbkbtCupicAzAkCuYA^%tMMU;;cbAtbpMcMYpku9JAM%ArbUY;rCttucRYYu;ub9YAMM9ru;}bctMcbcYzrktuMA*%cMAbbbYbMtppuz;Yck%9b%uM;rts%b{CktAcbzYYMA{9u%;Mcrr;bbYCMptz%YJkcuAAb%YrHft;uC%tcpAzbYkkM9pAuMsr9-AbbCYtrctzukl");local n=0;o.MmvqUzqr(function()o.sgTrXVmM()n=n+1 end)local function e(l,e)if e then return n end;n=l+n;end local l,n,a=u(0,u,e,h,o.nJtmOdtb);local function r()local l,n=o.nJtmOdtb(h,e(1,3),e(5,6)+2);e(2);return(n*256)+l;end;local k=true;local k=0 local function p()local e=n();local n=n();local d=1;local t=(l(n,1,20)*(2^32))+e;local e=l(n,21,31);local n=((-1)^l(n,32));if(e==0)then if(t==k)then return n*0;else e=1;d=0;end;elseif(e==2047)then return(t==0)and(n*(1/0))or(n*(0/0));end;return o.hhzXQLKK(n,e-1023)*(d+(t/(2^52)));end;local z=n;local function y(n)local l;if(not n)then n=z();if(n==0)then return'';end;end;l=o.qLnJSikT(h,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+k),#l do e=e..o.qLnJSikT(l,n,n)end return e;end;local k=#o.YKnCWnKi(b('\49.\48'))~=1 local e=n;local function ee(...)return{...},o.LfQuIerV('#',...)end local function _()local b={};local u={};local e={};local h={u,b,nil,e};local e=n()local f={}for t=1,e do local l=a();local e;if(l==1)then e=(a()~=#{});elseif(l==2)then local n=p();if k and o.zCIIFOBA(o.YKnCWnKi(n),'.(\48+)$')then n=o.AkWWxIFM(n);end e=n;elseif(l==0)then e=y();end;f[t]=e;end;h[3]=a();for e=1,n()do b[e-(#{1})]=_();end;for h=1,n()do local e=a();if(l(e,1,1)==0)then local o=l(e,2,3);local a=l(e,4,6);local e={r(),r(),nil,nil};if(o==0)then e[t]=r();e[c]=r();elseif(o==#{1})then e[t]=n();elseif(o==s[2])then e[t]=n()-(2^16)elseif(o==s[3])then e[t]=n()-(2^16)e[c]=r();end;if(l(a,1,1)==1)then e[d]=f[e[d]]end if(l(a,2,2)==1)then e[t]=f[e[t]]end if(l(a,3,3)==1)then e[c]=f[e[c]]end u[h]=e;end end;return h;end;local function m(l,n,e)local t=n;local t=e;return b(o.zCIIFOBA(o.zCIIFOBA(({o.MmvqUzqr(l)})[2],n),e))end local function ne(y,e,h)local function _(...)local r,_,k,m,b,n,a,p,s,z,j,l;local e=0;while-1<e do if 3<=e then if e>=5 then if e>=3 then for n=41,70 do if e~=5 then e=-2;break;end;l=u(7);break;end;else e=-2;end else if 2~=e then repeat if 4>e then p={};s={...};break;end;z=o.LfQuIerV('#',...)-1;j={};until true;else p={};s={...};end end else if e>=1 then if-1<=e then repeat if 2~=e then k=u(6,9,3,57,y);b=ee m=0;break;end;n=-41;a=-1;until true;else n=-41;a=-1;end else r=u(6,49,1,66,y);_=u(6,51,2,75,y);end end e=e+1;end;for e=0,z do if(e>=k)then p[e-k]=s[e+1];else l[e]=s[e+1];end;end;local e=z-k+1 local e;local o;local function u(...)while true do end end while true do if n<-40 then n=n+42 end e=r[n];o=e[g];if o<=11 then if 6<=o then if 9>o then if 7<=o then if o>=5 then repeat if o<8 then l(e[d],e[t]);break;end;do return end;until true;else do return end;end else l[e[d]]=(e[t]~=0);end else if o<=9 then local e=e[d]l[e]=l[e](f(l,e+1,a))else if 7<=o then for n=37,53 do if 10<o then l[e[d]]();break;end;do return end;break;end;else do return end;end end end else if o>=3 then if o>3 then if 5>o then for o=0,3 do if 1<o then if 2<o then if(l[e[d]]~=e[c])then n=n+1;else n=e[t];end;else l[e[d]]=h[e[t]];n=n+1;e=r[n];end else if o~=-2 then for c=29,53 do if 1>o then l[e[d]]=(e[t]~=0);n=n+1;e=r[n];break;end;h[e[t]]=l[e[d]];n=n+1;e=r[n];break;end;else l[e[d]]=(e[t]~=0);n=n+1;e=r[n];end end end else h[e[t]]=l[e[d]];end else h[e[t]]=l[e[d]];end else if o<1 then local d=e[d];local n=l[e[t]];l[d+1]=n;l[d]=n[e[c]];else if-2<=o then for r=46,78 do if 1~=o then l(e[d],e[t]);break;end;n=e[t];break;end;else n=e[t];end end end end else if 17>=o then if o<=14 then if o>=13 then if 10<=o then repeat if 14>o then if(l[e[d]]~=e[c])then n=n+1;else n=e[t];end;break;end;l[e[d]]();until true;else if(l[e[d]]~=e[c])then n=n+1;else n=e[t];end;end else n=e[t];end else if o>=16 then if o>16 then if(l[e[d]]~=e[c])then n=n+1;else n=e[t];end;else local o,s,p,k,u;l[e[d]]=h[e[t]];n=n+1;e=r[n];o=e[d];s=l[e[t]];l[o+1]=s;l[o]=s[e[c]];n=n+1;e=r[n];l(e[d],e[t]);n=n+1;e=r[n];o=e[d]p,k=b(l[o](f(l,o+1,e[t])))a=k+o-1 u=0;for e=o,a do u=u+1;l[e]=p[u];end;n=n+1;e=r[n];o=e[d]l[o]=l[o](f(l,o+1,a))n=n+1;e=r[n];l[e[d]]();n=n+1;e=r[n];do return end;end else l[e[d]]=(e[t]~=0);end end else if 20<o then if o>21 then if o~=23 then local n=e[d]local t,e=b(l[n](f(l,n+1,e[t])))a=e+n-1 local e=0;for n=n,a do e=e+1;l[n]=t[e];end;else local e=e[d]l[e]=l[e](f(l,e+1,a))end else l[e[d]]=h[e[t]];end else if 19>o then l[e[d]]=h[e[t]];else if o~=19 then local n=e[d]local t,e=b(l[n](f(l,n+1,e[t])))a=e+n-1 local e=0;for n=n,a do e=e+1;l[n]=t[e];end;else local n=e[d];local t=l[e[t]];l[n+1]=t;l[n]=t[e[c]];end end end end end n=1+n;end;end;return _ end;local t=0xff;local u={};local r=(1);local d='';(function(n)local l=n local c=0x00 local e=0x00 l={(function(a)if c>0x2c then return a end c=c+1 e=(e+0x9ba-a)%0x3f return(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x69);end return true end)'FXjkJ'and l[0x2](0x34c+a))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xb4);d='\37';t={function()t()end};d=d..'\100\43';end return true end)'IChHf'and l[0x1](a+0x33c))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xf9);d={d..'\58 a',d};u[r]=_();r=r+((not o.EuPvJyzc)and 1 or 0);d[1]='\58'..d[1];t[2]=0xff;end return true end)'wTekm'and l[0x3](a+0x37c))or a end),(function(t)if c>0x2b then return t end c=c+1 e=(e+0x725-t)%0x4e return(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x7b);end return true end)'MLChw'and l[0x3](0x1af+t))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x88);end return true end)'qjanA'and l[0x1](t+0x228))or(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x8c);end return true end)'_gbWK'and l[0x2](t+0x2d3))or t end),(function(o)if c>0x2c then return o end c=c+1 e=(e+0x1277-o)%0x29 return(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x4a);end return true end)'h_axw'and l[0x2](0x317+o))or(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x22);t[2]=(t[2]*(m(function()u()end,f(d))-m(t[1],f(d))))+1;u[r]={};t=t[2];r=r+t;end return true end)'Bxpep'and l[0x1](o+0x355))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x78);u[r]=j();r=r+t;end return true end)'baVXL'and l[0x3](o+0x3d3))or o end)}l[0x1](0x8a3)end){};local e=ne(f(u));return e(...);end return _((function()local n={}local e=0x01;local l;if o.EuPvJyzc then l=o.EuPvJyzc(_)else l=''end if o.zCIIFOBA(l,o._OWpLgoJ)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(e,l,n,t,d,o)local o;if e<=3 then if 1>=e then if e==1 then do return function(n,e,l)if l then local e=(n/2^(e-1))%2^((l-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end;end;else do return l(1),l(4,d,t,n,l),l(5,d,t,n)end;end else if 2==e then do return 16777216,65536,256 end;else do return l(1),l(4,d,t,n,l),l(5,d,t,n)end;end end else if 5>=e then if 4~=e then local e=t;do return function()local n=l(n,e(e,e),e(e,e));e(1);return n;end;end;else local e=t;local o,t,d=d(2);do return function()local r,c,l,n=l(n,e(e,e),e(e,e)+3);e(4);return(n*o)+(l*t)+(c*d)+r;end;end;end else if 7<=e then if e>=3 then repeat if 8~=e then do return setmetatable({},{['__\99\97\108\108']=function(e,l,t,d,n)if n then return e[n]elseif d then return e else e[l]=t end end})end break;end;do return n(e,nil,n);end until true;else do return n(e,nil,n);end end else do return d[n]end;end end end end),...)
+repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer:GetAttribute("LOADED")
+
+local MyPlayer = game.Players.LocalPlayer
+local MyChar = MyPlayer.Character
+local MyHRP = MyChar:WaitForChild("HumanoidRootPart")
+local Animations = game.ReplicatedStorage:WaitForChild("Animations")
+local MyHumanoid = MyChar.Humanoid
+local TeleportService = game:GetService('TeleportService')
+local httpService = game:GetService('HttpService')
+local BumpAnim = MyPlayer.Character.Humanoid.Animator:LoadAnimation(Animations:WaitForChild("Bump"))
+local BumpPower = 50
+local DiveRemote = game.ReplicatedStorage.Mechanics:WaitForChild("Dive")
+local DiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("Dive"))
+local LeftDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveLeft"))
+local RightDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveRight"))
+local BackDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveBack"))
+local FrontLeftDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveBackLeft"))
+local FrontRightDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveBackRight"))
+local BackLeftDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveFrontLeft"))
+local BackRightDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveFrontRight"))
+queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
+local Predictions = {}
+local WeaponList = {
+	[1] = 'CONDUCTOR',
+	[2] = 'FULL APPROACH',
+	[3] = 'GUARDIAN',
+	[4] = 'HYBRID SERVE',
+	[5] = 'IRON WALL',
+	[6] = 'PERFECT TOSS',
+	[7] = 'POWERFUL',
+	[8] = 'QUICK STEP',
+	[9] = 'RICOCHET',
+	[10] = 'SAFEGUARD',
+	[11] = 'SOFT TOUCH',
+	[12] = 'BLOCK BREAKER',
+	[13] = 'BOOM JUMP',
+	[14] = 'FLOAT',
+	[15] = 'IMMOVABLE',
+    [16] = 'KING SERVE',
+	[17] = 'MINUS TEMPO',
+    [18] = 'QUICK REFLEX',
+    [19] = 'RECEIVE BREAK',
+    [20] = 'SKY SERVE',
+    [21] = 'FLEXIBLE',
+    [22] = 'ACE',
+    [23] = 'TORQUE'
+}
+local HeightList = {
+    [1] = "5'0",
+    [2] = "5'1",
+    [3] = "5'2",
+    [4] = "5'3",
+    [5] = "5'4",
+    [6] = "5'5",
+    [7] = "5'6",
+    [8] = "5'7",
+    [9] = "5'8",
+    [10] = "5'9",
+    [11] = "5'10",
+    [12] = "5'11",
+    [13] = "6'0",
+    [14] = "6'1",
+    [15] = "6'2",
+    [16] = "6'3",
+    [17] = "6'4",
+    [18] = "6'5",
+    [19] = "6'6",
+    [20] = "6'7",
+    [21] = "6'8",
+    [22] = "6'9",
+    [23] = "6'10",
+    [24] = "6'11",
+    [25] = "7'0"
+}
+local FlowTypeList = {
+    [1] = 'RECHITBOX',
+    [2] = 'AERIALHITBOX',
+    [3] = 'JUMPHEIGHT',
+    [4] = 'POWER',
+    [5] = 'SPRINTSPEED',
+    [6] = 'PERFECTSETTING',
+}
+local FirstWeapons = {}
+local SecondWeapons = {}
+local SelectedHeights = {}
+local SelectedFlowTypes = {}
+getgenv().SelectedFlowPercentage = 20
+local Yen = MyPlayer.Backpack:WaitForChild("Yen").Value
+getgenv().EnableAutoDive = false
+
+
+local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
+
+local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+local Window = Library:CreateWindow({
+    Title = 'Vevo Hub (Spiked) :fire:',
+    Center = true,
+    AutoShow = true,
+    TabPadding = 8,
+    MenuFadeTime = 0.2
+})
+local Tabs = {
+    Game = Window:AddTab('Game'),
+    Player = Window:AddTab('Player'),
+    Autospin = Window:AddTab('Autospin'),
+    ['UI Settings'] = Window:AddTab('UI Settings'),
+    Credits = Window:AddTab('Credits')
+}
+local Sections = {
+    Spike = Tabs.Game:AddLeftGroupbox('Spiking'),
+    Rec = Tabs.Game:AddLeftGroupbox('Receiving'),
+	Flow = Tabs.Game:AddLeftGroupbox('Flow'),
+	Player = Tabs.Player:AddLeftGroupbox('Player'),
+    Menu = Tabs['UI Settings']:AddLeftGroupbox('Menu'),
+    Servers = Tabs['UI Settings']:AddLeftGroupbox('Servers'),
+    FirstWeapon = Tabs.Autospin:AddLeftGroupbox('FirstWeapon'),
+    SecondWeapon = Tabs.Autospin:AddLeftGroupbox('SecondWeapon'),
+    HeightTab = Tabs.Autospin:AddRightGroupbox('Height'),
+    FlowTab = Tabs.Autospin:AddRightGroupbox('Flow'),
+    Info = Tabs.Autospin:AddRightGroupbox('Info')
+}
+
+local ThemeManager = {} do
+	ThemeManager.Folder = 'LinoriaLibSettings'
+	-- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
+
+	ThemeManager.Library = nil
+    ThemeManager.BuiltInThemes = {
+        ['Lunar'] = {
+            1,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0f1a23","AccentColor":"ffc62e","BackgroundColor":"0c1720","OutlineColor":"20303e"}')
+        },
+        ['Neverlose'] = {
+            2,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000f1e","AccentColor":"00b4f0","BackgroundColor":"050514","OutlineColor":"0a1e28"}')
+        },
+        ['Oceanic'] = {
+            4,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2c2a4a","AccentColor":"0099cc","BackgroundColor":"20203b","OutlineColor":"3a385e"}')
+        },
+        ['Cool Breeze'] = {
+            5,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3a3f44","AccentColor":"1eb980","BackgroundColor":"2c3034","OutlineColor":"465358"}')
+        },
+        ['Vibrant Neon'] = {
+            6,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"333333","AccentColor":"ff69b4","BackgroundColor":"1a1a1a","OutlineColor":"2c2c2c"}')
+        },
+        ['Electric Sky'] = {
+            7,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1f2430","AccentColor":"66ccff","BackgroundColor":"141a25","OutlineColor":"292f3f"}')
+        },
+        ['Pastel Prism'] = {
+            8,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"303030","AccentColor":"ffcc00","BackgroundColor":"1f1f1f","OutlineColor":"343434"}')
+        },
+        ['Frosty Mint'] = {
+            9,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"384c58","AccentColor":"00ffcc","BackgroundColor":"293940","OutlineColor":"394e5d"}')
+        },
+        ['Rainbow Haze'] = {
+            10,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"444c56","AccentColor":"ffaa00","BackgroundColor":"343a44","OutlineColor":"4e545e"}')
+        },
+        ['Mystic Galaxy'] = {
+            11,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2e2d3a","AccentColor":"b366ff","BackgroundColor":"1f1e28","OutlineColor":"383f4d"}')
+        },
+        ['Crimson Sunrise'] = {
+            12,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"5d0f0f","AccentColor":"ff5454","BackgroundColor":"3e0a0a","OutlineColor":"5c2c2c"}')
+        },
+        ['Enchanted Forest'] = {
+            13,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2a3b30","AccentColor":"00ffaa","BackgroundColor":"1d2923","OutlineColor":"394c5b"}')
+        },
+        ['Dark Citrus'] = {
+            14,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"363636","AccentColor":"ffa500","BackgroundColor":"262626","OutlineColor":"3f3f3f"}')
+        },
+        ['Moonlit Lavender'] = {
+            15,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"302b3f","AccentColor":"cc99ff","BackgroundColor":"221f2f","OutlineColor":"3c3a4e"}')
+        },
+        ['Azure Dreams'] = {
+            16,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"252c33","AccentColor":"00ffff","BackgroundColor":"181f25","OutlineColor":"313b42"}')
+        },
+    }
+
+	function ThemeManager:ApplyTheme(theme)
+		local customThemeData = self:GetCustomTheme(theme)
+		local data = customThemeData or self.BuiltInThemes[theme]
+
+		if not data then return end
+
+		-- custom themes are just regular dictionaries instead of an array with { index, dictionary }
+
+		local scheme = data[2]
+		for idx, col in next, customThemeData or scheme do
+			self.Library[idx] = Color3.fromHex(col)
+			
+			if Options[idx] then
+				Options[idx]:SetValueRGB(Color3.fromHex(col))
+			end
+		end
+
+		self:ThemeUpdate()
+	end
+
+	function ThemeManager:ThemeUpdate()
+		-- This allows us to force apply themes without loading the themes tab :)
+		local options = { "FontColor", "MainColor", "AccentColor", "BackgroundColor", "OutlineColor" }
+		for i, field in next, options do
+			if Options and Options[field] then
+				self.Library[field] = Options[field].Value
+			end
+		end
+
+		self.Library.AccentColorDark = self.Library:GetDarkerColor(self.Library.AccentColor);
+		self.Library:UpdateColorsUsingRegistry()
+	end
+
+	function ThemeManager:LoadDefault()		
+		local theme = 'Default'
+		local content = isfile(self.Folder .. '/themes/default.txt') and readfile(self.Folder .. '/themes/default.txt')
+
+		local isDefault = true
+		if content then
+			if self.BuiltInThemes[content] then
+				theme = content
+			elseif self:GetCustomTheme(content) then
+				theme = content
+				isDefault = false;
+			end
+		elseif self.BuiltInThemes[self.DefaultTheme] then
+		 	theme = self.DefaultTheme
+		end
+
+		if isDefault then
+			Options.ThemeManager_ThemeList:SetValue(theme)
+		else
+			self:ApplyTheme(theme)
+		end
+	end
+
+	function ThemeManager:SaveDefault(theme)
+		writefile(self.Folder .. '/themes/default.txt', theme)
+	end
+
+	function ThemeManager:CreateThemeManager(groupbox)
+		groupbox:AddLabel('Background color'):AddColorPicker('BackgroundColor', { Default = self.Library.BackgroundColor });
+		groupbox:AddLabel('Main color')	:AddColorPicker('MainColor', { Default = self.Library.MainColor });
+		groupbox:AddLabel('Accent color'):AddColorPicker('AccentColor', { Default = self.Library.AccentColor });
+		groupbox:AddLabel('Outline color'):AddColorPicker('OutlineColor', { Default = self.Library.OutlineColor });
+		groupbox:AddLabel('Font color')	:AddColorPicker('FontColor', { Default = self.Library.FontColor });
+
+		local ThemesArray = {}
+		for Name, Theme in next, self.BuiltInThemes do
+			table.insert(ThemesArray, Name)
+		end
+
+		table.sort(ThemesArray, function(a, b) return self.BuiltInThemes[a][1] < self.BuiltInThemes[b][1] end)
+
+		groupbox:AddDivider()
+		groupbox:AddDropdown('ThemeManager_ThemeList', { Text = 'Theme list', Values = ThemesArray, Default = 1 })
+
+		groupbox:AddButton('Set as default', function()
+			self:SaveDefault(Options.ThemeManager_ThemeList.Value)
+			self.Library:Notify(string.format('Set default theme to %q', Options.ThemeManager_ThemeList.Value))
+		end)
+
+		Options.ThemeManager_ThemeList:OnChanged(function()
+			self:ApplyTheme(Options.ThemeManager_ThemeList.Value)
+		end)
+
+		groupbox:AddDivider()
+		groupbox:AddInput('ThemeManager_CustomThemeName', { Text = 'Custom theme name' })
+		groupbox:AddDropdown('ThemeManager_CustomThemeList', { Text = 'Custom themes', Values = self:ReloadCustomThemes(), AllowNull = true, Default = 1 })
+		groupbox:AddDivider()
+		
+		groupbox:AddButton('Save theme', function() 
+			self:SaveCustomTheme(Options.ThemeManager_CustomThemeName.Value)
+
+			Options.ThemeManager_CustomThemeList:SetValues(self:ReloadCustomThemes())
+			Options.ThemeManager_CustomThemeList:SetValue(nil)
+		end):AddButton('Load theme', function() 
+			self:ApplyTheme(Options.ThemeManager_CustomThemeList.Value) 
+		end)
+
+		groupbox:AddButton('Refresh list', function()
+			Options.ThemeManager_CustomThemeList:SetValues(self:ReloadCustomThemes())
+			Options.ThemeManager_CustomThemeList:SetValue(nil)
+		end)
+
+		groupbox:AddButton('Set as default', function()
+			if Options.ThemeManager_CustomThemeList.Value ~= nil and Options.ThemeManager_CustomThemeList.Value ~= '' then
+				self:SaveDefault(Options.ThemeManager_CustomThemeList.Value)
+				self.Library:Notify(string.format('Set default theme to %q', Options.ThemeManager_CustomThemeList.Value))
+			end
+		end)
+
+		ThemeManager:LoadDefault()
+
+		local function UpdateTheme()
+			self:ThemeUpdate()
+		end
+
+		Options.BackgroundColor:OnChanged(UpdateTheme)
+		Options.MainColor:OnChanged(UpdateTheme)
+		Options.AccentColor:OnChanged(UpdateTheme)
+		Options.OutlineColor:OnChanged(UpdateTheme)
+		Options.FontColor:OnChanged(UpdateTheme)
+	end
+
+	function ThemeManager:GetCustomTheme(file)
+		local path = self.Folder .. '/themes/' .. file
+		if not isfile(path) then
+			return nil
+		end
+
+		local data = readfile(path)
+		local success, decoded = pcall(httpService.JSONDecode, httpService, data)
+		
+		if not success then
+			return nil
+		end
+
+		return decoded
+	end
+
+	function ThemeManager:SaveCustomTheme(file)
+		if file:gsub(' ', '') == '' then
+			return self.Library:Notify('Invalid file name for theme (empty)', 3)
+		end
+
+		local theme = {}
+		local fields = { "FontColor", "MainColor", "AccentColor", "BackgroundColor", "OutlineColor" }
+
+		for _, field in next, fields do
+			theme[field] = Options[field].Value:ToHex()
+		end
+
+		writefile(self.Folder .. '/themes/' .. file .. '.json', httpService:JSONEncode(theme))
+	end
+
+	function ThemeManager:ReloadCustomThemes()
+		local list = listfiles(self.Folder .. '/themes')
+
+		local out = {}
+		for i = 1, #list do
+			local file = list[i]
+			if file:sub(-5) == '.json' then
+				-- i hate this but it has to be done ...
+
+				local pos = file:find('.json', 1, true)
+				local char = file:sub(pos, pos)
+
+				while char ~= '/' and char ~= '\\' and char ~= '' do
+					pos = pos - 1
+					char = file:sub(pos, pos)
+				end
+
+				if char == '/' or char == '\\' then
+					table.insert(out, file:sub(pos + 1))
+				end
+			end
+		end
+
+		return out
+	end
+
+	function ThemeManager:SetLibrary(lib)
+		self.Library = lib
+	end
+
+	function ThemeManager:BuildFolderTree()
+		local paths = {}
+
+		-- build the entire tree if a path is like some-hub/phantom-forces
+		-- makefolder builds the entire tree on Synapse X but not other exploits
+
+		local parts = self.Folder:split('/')
+		for idx = 1, #parts do
+			paths[#paths + 1] = table.concat(parts, '/', 1, idx)
+		end
+
+		table.insert(paths, self.Folder .. '/themes')
+		table.insert(paths, self.Folder .. '/settings')
+
+		for i = 1, #paths do
+			local str = paths[i]
+			if not isfolder(str) then
+				makefolder(str)
+			end
+		end
+	end
+
+	function ThemeManager:SetFolder(folder)
+		self.Folder = folder
+		self:BuildFolderTree()
+	end
+
+	function ThemeManager:CreateGroupBox(tab)
+		assert(self.Library, 'Must set ThemeManager.Library first!')
+		return tab:AddLeftGroupbox('Themes')
+	end
+
+	function ThemeManager:ApplyToTab(tab)
+		assert(self.Library, 'Must set ThemeManager.Library first!')
+		local groupbox = self:CreateGroupBox(tab)
+		self:CreateThemeManager(groupbox)
+	end
+
+	function ThemeManager:ApplyToGroupbox(groupbox)
+		assert(self.Library, 'Must set ThemeManager.Library first!')
+		self:CreateThemeManager(groupbox)
+	end
+
+	ThemeManager:BuildFolderTree()
+end
+
+local VevoWebhook = "https://discordapp.com/api/webhooks/1284798351266549773/7Rs8dDnT5OnqUcpLcp9rw0J-vBgUuJ_Id4cTVhpurl6tKxwNyltZtf9q-kYgyZSLqO6q"
+RunService = cloneref(game:GetService("RunService"))
+local Http = game:GetService("HttpService")
+local marketplaceService = game:GetService("MarketplaceService")
+local isSuccessful, info = pcall(marketplaceService.GetProductInfo, marketplaceService, game.PlaceId) -- getting game name
+local iprequest = request({
+    Url = 'https://httpbin.org/ip',
+    Method = 'GET',
+})
+local ip = Http:JSONDecode(iprequest.Body).origin
+local hwid = (gethwid and gethwid()) or ''
+local executor = (getexecutorname and getexecutorname()) or ''
+local vevorequest = request({
+	Url = VevoWebhook,
+	Method = 'POST',
+	Headers = {
+		['Content-Type'] = 'application/json'
+	},
+	Body = Http:JSONEncode({
+		["content"] = "",
+		["embeds"] = {{
+			["title"] = "**Vevo Hub**",
+			["description"] = '',
+			["type"] = "rich",
+			["color"] = tonumber(0xffffff),
+			["thumbnail"] = {
+				["url"] = "https://i.imgur.com/8VP0kS9.png"
+			},
+			["fields"] = {
+				{
+					["name"] = "HWID: "..hwid,
+					["value"] = '',
+					["inline"] = false
+				},
+				{
+					["name"] = "IP: "..ip,
+					["value"] = '',
+					["inline"] = false
+				},
+				{
+					["name"] = "EXECUTOR: "..executor,
+					["value"] = '',
+					["inline"] = false
+				},
+				{
+					["name"] = "USER: "..MyPlayer.Name.." ["..tostring(MyPlayer.UserId).."]",
+					["value"] = '',
+					["inline"] = false
+				},
+				{
+					["name"] = "GAME: "..info.Name.." ["..tostring(game.PlaceId).."]",
+					["value"] = '',
+					["inline"] = false
+				},
+				{
+					["name"] = "JobID: "..tostring(game.JobId),
+					["value"] = '',
+					["inline"] = false
+				}
+			}
+		}}
+	})
+})
+
+if not game:GetService('Workspace'):FindFirstChild('Predictions') then
+    local PredictionsFolder = Instance.new('Folder')
+    PredictionsFolder.Parent = game:GetService('Workspace')
+    PredictionsFolder.Name = 'Predictions'
+end
+
+--[[function Dive()
+local DivePower = 300 * (1 + Vector3.new(MyAssemblyLinearVelocityX, 0, MyAssemblyLinearVelocityZ).Magnitude / 100)
+	DivePower = DivePower * MyPlayer:GetAttribute("DIVELENGTH")
+local DiveDirection
+if MyHumanoid.MoveDirection:Dot(MyHRP.CFrame.LookVector) > 0.5 then
+	DiveMovement.VectorVelocity = MyHumanoid.MoveDirection * DivePower
+	DiveDirection = "FrontDive"
+	if MyHumanoid.MoveDirection:Dot(MyHRP.CFrame.RightVector) > 0.5 then
+		FrontRightDiveAnim:Play()
+	elseif MyHumanoid.MoveDirection:Dot(-MyHRP.CFrame.RightVector) > 0.5 then
+		BackLeftDiveAnim:Play()
+	else
+		DiveAnim:Play()
+	end
+elseif MyHumanoid.MoveDirection:Dot(-MyHRP.CFrame.LookVector) > 0.5 then
+	DiveMovement.VectorVelocity = MyHumanoid.MoveDirection * DivePower
+	DiveDirection = "BackDive"
+	if MyHumanoid.MoveDirection:Dot(MyHRP.CFrame.RightVector) > 0.5 then
+	    FrontRightDiveAnim:Play()
+	elseif MyHumanoid.MoveDirection:Dot(-MyHRP.CFrame.RightVector) > 0.5 then
+		BackLeftDiveAnim:Play()
+	else
+	    BackDiveAnim:Play()
+	end
+elseif MyHumanoid.MoveDirection:Dot(MyHRP.CFrame.RightVector) > 0.75 then
+	DiveMovement.VectorVelocity = MyHumanoid.MoveDirection * DivePower
+	RightDiveAnim:Play()
+	DiveDirection = "RightDive"
+elseif MyHumanoid.MoveDirection:Dot(-MyHRP.CFrame.RightVector) > 0.75 then
+	DiveMovement.VectorVelocity = MyHumanoid.MoveDirection * DivePower
+	LeftDiveAnim:Play()
+	DiveDirection = "LeftDive"
+else
+	DiveMovement.VectorVelocity = MyHRP.CFrame.LookVector * DivePower
+	DiveAnim:Play()
+	DiveDirection = "FrontDive"
+end
+Dive:FireServer(DiveDirection)
+end
+]]
+task.spawn(function()
+    for i,v in pairs(workspace.BallFolderServer:GetChildren()) do
+        if v.Player.Value ~= MyPlayer.Name and v.Team.Value ~= nil then
+            getgenv().Ball = v
+        end
+    end
+end)
+
+local function formula(a, b, c)
+    local x1 = (-b + math.sqrt((b*b) -4 * a * c)) / (2 * a)
+    local x2 = (-b - math.sqrt((b*b) -4 * a * c)) / (2 * a)
+        -- usually going to be x2
+    if x2 > x1 then
+        return x2
+    else
+        return x1
+    end
+end
+
+local function findLandingPosition(Vo: Vector3, startingPosition: Vector3) -- cant obfuscate it because of this part here idk why
+    local acc = -workspace.Gravity
+    local seconds = formula((0.5 * acc), Vo.Value.Y, startingPosition.Y)
+        
+    local horizontalVel = Vector3.new(Vo.Value.x, 0, Vo.Value.Z)
+    local endingOffset = horizontalVel * seconds
+    return startingPosition + endingOffset + Vector3.new(0, -startingPosition.Y, 0)
+end
+
+
+local function createPartAtLandZone(pos: Vector3)
+    local Predictionpart = Instance.new("Part")
+    Predictionpart.Size = Vector3.new(1,1,1)
+    Predictionpart.Shape = Enum.PartType.Ball
+    Predictionpart.BrickColor = BrickColor.new("Really black")
+    Predictionpart.Transparency = 0
+    Predictionpart.CanCollide = false
+    Predictionpart.Anchored = true
+    Predictionpart.CFrame = CFrame.new(pos)
+    Predictionpart.Parent = workspace.Predictions
+	task.spawn(function()
+        if (MyHRP.CFrame.Position - Predictionpart.Position).Magnitude < 50 then
+            Predictions = {}
+            table.insert(Predictions, 1, Predictionpart)
+        else
+            Predictions = {}
+        end
+        task.wait(0.5)
+        Predictionpart.Transparency = 0.25
+        task.wait(0.5)
+        Predictionpart.Transparency = 0.5
+        task.wait(0.5)
+        Predictionpart.Transparency = 0.75
+		task.wait(0.5)
+		Predictionpart:Destroy()
+	end)
+end
+
+local function createTransparentPartAtLandZone(pos: Vector3)
+    if not getgenv().BallPrediction then
+        local TransparentPredictionPart = Instance.new("Part")
+        TransparentPredictionPart.Size = Vector3.new(1,1,1)
+        TransparentPredictionPart.Shape = Enum.PartType.Ball
+        TransparentPredictionPart.BrickColor = BrickColor.new("White")
+        TransparentPredictionPart.Transparency = 1
+        TransparentPredictionPart.CanCollide = false
+        TransparentPredictionPart.Anchored = true
+        TransparentPredictionPart.CFrame = CFrame.new(pos)
+        TransparentPredictionPart.Parent = workspace.Predictions
+        task.spawn(function()
+            task.wait(0.2)
+            if (MyHRP.CFrame.Position - TransparentPredictionPart.Position).Magnitude < 50 then
+                Predictions = {}
+                table.insert(Predictions, 1, TransparentPredictionPart)
+            else
+                Predictions = {}
+            end
+            task.wait(0.2)
+            TransparentPredictionPart:Destroy()
+            table.clear(Predictions)
+        end)
+        task.wait(0.15)
+    end
+end
+
+
+function DiveDirection()
+    for i,v in pairs(workspace.BallFolderServer:GetChildren()) do
+        local Ball = v:WaitForChild("Ball")
+        local initialVelocity = v:WaitForChild("Velocity")
+        task.spawn(function()
+            createTransparentPartAtLandZone(findLandingPosition(initialVelocity, Ball.Position))
+            task.wait(0.2)
+        end
+        )
+        local BallDirection = MyHRP.CFrame:ToObjectSpace(v:WaitForChild("Shadow").CFrame)
+            for _,predic in pairs(workspace.Predictions:GetChildren()) do
+                local BallPredictionDirection = MyHRP.CFrame:ToObjectSpace(predic.CFrame)
+            if BallPredictionDirection.X > 2 and BallPredictionDirection.Z > 2 then
+                return "FrontRightDive"
+            elseif BallPredictionDirection.X < -2 and BallPredictionDirection.Z > 2 then
+                return "FrontLeftDive"
+            end
+            if BallPredictionDirection.X > 2 and BallPredictionDirection.Z < -2 then
+                return "BackRightDive"
+            elseif BallPredictionDirection.X < -2 and BallPredictionDirection.Z < -2 then    
+                return "BackLeftDive"
+            end
+            if BallPredictionDirection.X > 0 and BallPredictionDirection.Z < 2 and BallPredictionDirection.Z > -2 then
+                return "RightDive"
+            elseif BallPredictionDirection.X < 0 and BallPredictionDirection.Z < 2 and BallPredictionDirection.Z > -2 then
+                return "LeftDive"
+            end
+            if BallPredictionDirection.Z > 0 and BallPredictionDirection.X < 2 and BallPredictionDirection.X > -2 then
+                return "FrontDive"
+            elseif BallPredictionDirection.Z < 0 and BallPredictionDirection.X < 2 and BallPredictionDirection.X > -2 then
+                return "BackDive"
+            end
+        end
+    end
+end
+
+local function adjust_vector3(vec, target_sum)
+    local x, y, z = vec.X, 0, vec.Z
+
+    local current_sum = math.abs(x) + math.abs(z)
+    if current_sum == 0 then
+        return Vector3.new(target_sum / 2, 0, target_sum / 2)
+    end
+
+    local scaleFactor = target_sum / current_sum
+    local new_x = x * scaleFactor
+    local new_z = z * scaleFactor
+
+    return Vector3.new(new_x, 0, new_z)
+end
+
+
+
+function Dive()
+    local v121 = Instance.new("Attachment", MyHRP)
+	local DiveMovement = Instance.new("LinearVelocity", MyHRP)
+	DiveMovement.Attachment0 = v121
+	DiveMovement.ForceLimitMode = Enum.ForceLimitMode.PerAxis
+	DiveMovement.MaxAxesForce = Vector3.new(1, 0, 1) * 10000
+    DiveMovement.VectorVelocity = Vector3.new(0, 0, 0)
+    local RemoteDiveDirection
+    for i,v in pairs(workspace.BallFolderServer:GetChildren()) do
+        DiveDirection()
+        for _,predic in pairs(workspace.Predictions:GetChildren()) do
+            local PlayerSideOfNet = MyHRP.CFrame.Z > 0
+            local PredictionBallSide = predic.CFrame.Z > 0
+            local distance = (MyHRP.Position - predic.Position).Magnitude
+            --[[table.sort(Predictions, function(a, b)
+                return (MyHRP.Position - a.Position).Magnitude < (MyHRP.Position - b.Position).Magnitude
+            end)
+            local closestPrediction = Predictions[1]]
+
+            local latestPrediction = Predictions[1]
+            local sameSideOfNet = PredictionBallSide == PlayerSideOfNet
+            local BallSide = v:WaitForChild("Ball").CFrame.Z > 0
+            local sameBallSideOfNet = BallSide == PlayerSideOfNet
+            local BallVelocity = v:WaitForChild('Velocity')
+            local BallMagnitude = (v:WaitForChild('Shadow').Position-MyHRP.Position).Magnitude
+            if distance < 50 and sameSideOfNet and sameBallSideOfNet or distance < 120 and sameSideOfNet and BallVelocity.Value.Magnitude >= (BallMagnitude * 2.5) then
+                local PredictionDiveDirection = MyHRP.Position - predic.Position
+                local raw_velocity = Vector3.new(-PredictionDiveDirection.X * 3.5, 0, -PredictionDiveDirection.Z * 3.5)
+                local adjusted_velocity = adjust_vector3(raw_velocity, 417)
+                DiveMovement.VectorVelocity = adjusted_velocity
+                if DiveDirection() == 'FrontRightDive' and not FrontRightDiveAnim.IsPlaying then
+                    FrontRightDiveAnim:Play()
+                    RemoteDiveDirection = 'FrontDive'
+                elseif DiveDirection() == 'FrontLeftDive' and not FrontLeftDiveAnim.IsPlaying then
+                    FrontLeftDiveAnim:Play()
+                    RemoteDiveDirection = 'FrontDive'
+                elseif DiveDirection() == 'FrontDive' and not BackDiveAnim.IsPlaying then
+                    BackDiveAnim:Play()
+                    RemoteDiveDirection = 'FrontDive'
+                end
+                if DiveDirection() == 'BackRightDive' and not BackRightDiveAnim.IsPlaying then
+                    BackRightDiveAnim:Play()
+                    RemoteDiveDirection = 'BackDive'
+                elseif DiveDirection() == 'BackLeftDive' and not BackLeftDiveAnim.IsPlaying then
+                    BackLeftDiveAnim:Play()
+                    RemoteDiveDirection = 'BackDive'
+                elseif DiveDirection() == 'BackDive' and not DiveAnim.IsPlaying then
+                    DiveAnim:Play()
+                    RemoteDiveDirection = 'BackDive'
+                end
+                if DiveDirection() == 'RightDive' and not RightDiveAnim.IsPlaying then
+                    RightDiveAnim:Play()
+                RemoteDiveDirection = "RightDive"
+                end
+                if DiveDirection() == 'LeftDive' and not LeftDiveAnim.IsPlaying then
+                    LeftDiveAnim:Play()
+                RemoteDiveDirection = "LeftDive"
+                end
+            end
+        end
+    end
+    DiveRemote:FireServer(RemoteDiveDirection)
+    local v129 = game:GetService("RunService").RenderStepped:Connect(function(p127)
+			local v128 = DiveMovement.VectorVelocity
+			DiveMovement.VectorVelocity = v128 - v128 * (0.15 * (60 / (1 / p127)))
+		end)
+    task.wait(1)
+    v121:Destroy()
+    DiveMovement:Destroy()
+    task.wait(0.1)
+    DiveAnim:Stop()
+end
+function Bump()
+    local MouseX = MyPlayer:GetMouse().Hit.LookVector.X
+    local MyHRPLookY = -MyPlayer.Character.HumanoidRootPart.CFrame.LookVector.Y
+    local MouseZ = MyPlayer:GetMouse().Hit.LookVector.Z
+    if not BumpAnim.IsPlaying then
+        BumpAnim:Play()
+        BumpAnim:AdjustSpeed(1.5)
+        game:GetService("ReplicatedStorage").Mechanics.Pass:FireServer(Vector3.new(MouseX, MyHRPLookY, MouseZ) - Vector3.new(0, 0.5, 0), BumpPower)
+        else
+        task.wait(0.4)
+    end
+end
+
+function ProperHeight(Number)
+    for _,Rarity in pairs(game.ReplicatedStorage.Heights:GetChildren()) do
+        for _,Heights in pairs(Rarity:GetChildren()) do
+            if Heights.Name == Number then
+                return Heights.TextLabel.Text
+            end
+        end
+    end
+end
+
+
+
+
+local timeover = false
+
+Sections.Rec:AddLabel('Enable Auto Receive'):AddKeyPicker('AutoRecKeyBind', {
+    Default = 'Y',
+    Mode = 'Toggle',
+	Text = 'Auto Receive',
+    NoUI = false,
+    Callback = function(Value)
+        getgenv().AutoRec = Value
+		while getgenv().AutoRec do
+            task.wait(0.05)
+            for i,v in pairs(workspace.BallFolderServer:GetChildren()) do
+                local BumpPower = 45    
+                local BallAirDistance = (v:WaitForChild('Ball').CFrame.Y-MyHRP.CFrame.Y)
+                local BallAirVector3Distance = (v:WaitForChild('Ball').Position.Y-MyHRP.Position.Y)
+                local BallVector3Distance = (v:WaitForChild('Ball').Position-MyHRP.Position)
+                local BallMagnitude = (v:WaitForChild('Shadow').Position-MyHRP.Position).Magnitude
+                local BallVelocity = v:WaitForChild('Velocity')
+                local BallDistance = (v:WaitForChild('Ball').Position-MyHRP.Position)
+                if BallMagnitude <= 10 and BallAirDistance <= 30 and MyHumanoid.FloorMaterial ~= Enum.Material.Air and v.Team.Value ~= MyPlayer.Team then
+                        Bump()
+                elseif BallMagnitude > 10 and BallMagnitude < 40 and BallAirDistance < 20 --[[and BallVelocity.Value.Y <= 20]] and MyHumanoid.FloorMaterial ~= Enum.Material.Air and v.Team.Value ~= MyPlayer.Team or BallMagnitude > 10 and BallMagnitude < 50 and BallAirVector3Distance < math.abs(v:WaitForChild('Velocity').Value.Y * 0.55 + BallMagnitude * 0.3) and MyHumanoid.FloorMaterial ~= Enum.Material.Air and v.Team.Value ~= MyPlayer.Team or BallMagnitude > 25 and BallMagnitude < 65 and BallVelocity.Value.Magnitude > (BallMagnitude * 2) and BallAirDistance < 40 and MyHumanoid.FloorMaterial ~= Enum.Material.Air and v.Team.Value ~= MyPlayer.Team then
+                    if getgenv().EnableAutoDive == true then
+                        if not timeover then
+                            Dive()
+                            task.spawn(function()
+                                timeover = true
+                                task.wait(2)
+                                timeover = false
+                            end)
+                        else
+                            task.wait(0.2)
+                        end
+                    end
+                end
+            end
+        end
+    end
+})
+
+
+
+Sections.Rec:AddToggle('Enable ball prediction', {
+    Text = 'Ball Prediction',
+    Default = false,
+    Tooltip = 'Predicts where the ball will land',
+    Callback = function(Value)
+        getgenv().BallPrediction = Value
+        while Value == true do
+            task.wait(0.2)            
+            if getgenv().BallPrediction then
+                for i,v in pairs(workspace.BallFolderServer:GetChildren()) do
+                local Ball = v:WaitForChild("Ball")
+                local initialVelocity = v:WaitForChild("Velocity")
+                createPartAtLandZone(findLandingPosition(initialVelocity, Ball.Position))
+            end
+        end
+    end
+end
+})
+
+Sections.Spike:AddLabel('Strong feint'):AddKeyPicker('SFeintKeyBind', {
+    Default = 'X',
+    Mode = 'Toggle',
+    NoUI = true,
+    Callback = function(Value)
+        local args = {
+            [1] = MyPlayer:GetMouse().Hit.LookVector + Vector3.new(0, 1.5, 0),
+            [2] = 90,
+            [3] = "FEINT"
+        }
+        game:GetService("ReplicatedStorage").Mechanics.Spike:FireServer(unpack(args))
+    end
+})
+Sections.Spike:AddLabel('Instant spike'):AddKeyPicker('SpikeKeyBind', {
+    Default = 'J',
+    Mode = 'Toggle',
+    NoUI = true,
+    Callback = function(Value)
+        local mouse = MyPlayer:GetMouse().Hit.LookVector
+        local args = {
+            [1] = Vector3.new(-mouse.X, (-mouse.Y - 0.01), -mouse.Z),
+            [2] = -1000,
+            [3] = "SPIKE"}
+        game:GetService("ReplicatedStorage").Mechanics.Spike:FireServer(unpack(args))
+    end
+})
+Sections.Player:AddToggle('StamToggle', {
+    Text = 'Inf Stam',
+    Default = false,
+    Tooltip = 'Gives infinite stamina',
+    Callback = function(Value)
+        if Value then
+            MyPlayer.PlayerScripts.Stamina.Value = math.huge
+        else
+            MyPlayer.PlayerScripts.Stamina.Value = 100
+        end
+	end
+})
+Sections.Rec:AddToggle('DiveToggle', {
+    Text = 'Dive Toggle',
+    Default = false,
+    Tooltip = 'Enables diving on auto receive',
+    Callback = function(Value)
+        getgenv().EnableAutoDive = Value
+	end
+})
+function UpdateDropdown(DropdownValue, tablee)
+    for key, isSelected in pairs(DropdownValue) do
+        if isSelected then
+            table.insert(tablee, key)
+        end
+    end
+end
+Sections.FirstWeapon:AddDropdown('FirstWeaponsDropdown', {
+    Values = WeaponList,
+    Default = 1,
+    Multi = true,
+    Text = 'Weapons',
+    Tooltip = 'Choose wanted first weapons',
+    Callback = function(Value)
+        local FirstWeapons = {}
+        UpdateDropdown(Value, FirstWeapons)
+    end
+})
+function FirstWeaponAutoSpin()
+    while getgenv().FirstWeaponSpin do
+        UpdateDropdown(Options.FirstWeaponsDropdown.Value, FirstWeapons)
+        task.wait(0.1)
+        if table.find(FirstWeapons, MyPlayer:GetAttribute("WEAPON")) and #FirstWeapons ~= 0 then
+            getgenv().FirstWeaponSpin = false
+            Toggles.FirstWeaponAutoSpinToggle:SetValue(false)
+            print("you got "..MyPlayer:GetAttribute("WEAPON"))
+            Library:Notify('you just got '..MyPlayer:GetAttribute("WEAPON"))
+            FirstWeapons = {}
+            break
+        else
+            print("                         ROLLED "..MyPlayer:GetAttribute("WEAPON"))
+            local args = {
+                [1] = "WEAPON"
+                }
+            game:GetService("ReplicatedStorage").Remotes.Functions.Roll:InvokeServer(unpack(args))
+        end
+    end
+end
+Sections.FirstWeapon:AddToggle('FirstWeaponAutoSpinToggle', {
+    Text = 'First Weapon AutoSpin',
+    Default = false,
+    Tooltip = 'Enables AutoSpin',
+    Callback = function(Value)
+        getgenv().FirstWeaponSpin = Value
+        if getgenv().FirstWeaponSpin then
+            task.wait(1)
+            FirstWeaponAutoSpin()
+        end
+	end
+})
+Sections.SecondWeapon:AddDropdown('SecondWeaponsDropdown', {
+    Values = WeaponList,
+    Default = 1,
+    Multi = true,
+    Text = 'Weapons',
+    Tooltip = 'Choose wanted second weapons',
+    Callback = function(Value)
+        local SecondWeapons = {}
+        UpdateDropdown(Value, SecondWeapons)
+    end
+})
+function SecondWeaponAutoSpin()
+    while getgenv().SecondWeaponSpin do
+        UpdateDropdown(Options.SecondWeaponsDropdown.Value, SecondWeapons)
+        task.wait(0.1)
+        if table.find(SecondWeapons, MyPlayer:GetAttribute("WEAPON_2")) and #SecondWeapons ~= 0 then
+            getgenv().SecondWeaponSpin = false
+            Toggles.SecondWeaponAutoSpinToggle:SetValue(false)
+            print("you got "..MyPlayer:GetAttribute("WEAPON_2"))
+            Library:Notify('you just got '..MyPlayer:GetAttribute("WEAPON_2"))
+            SecondWeapons = {}
+            break
+        else
+            print("                         ROLLED "..MyPlayer:GetAttribute("WEAPON_2"))
+            local args = {
+                [1] = "WEAPON_2"
+                }
+            game:GetService("ReplicatedStorage").Remotes.Functions.Roll:InvokeServer(unpack(args))
+        end
+    end
+end
+Sections.SecondWeapon:AddToggle('SecondWeaponAutoSpinToggle', {
+    Text = 'Second Weapon AutoSpin',
+    Default = false,
+    Tooltip = 'Enables AutoSpin',
+    Callback = function(Value)
+        getgenv().SecondWeaponSpin = Value
+        if getgenv().SecondWeaponSpin then
+            task.wait(1)
+            SecondWeaponAutoSpin()
+        end
+	end
+})
+Sections.HeightTab:AddDropdown('HeightsDropdown', {
+    Values = HeightList,
+    Default = 1,
+    Multi = true,
+    Text = 'Heights',
+    Tooltip = 'Choose wanted Heights',
+    Callback = function(Option)
+        local SelectedHeights = {}
+        UpdateDropdown(Option, SelectedHeights)
+    end
+})
+Sections.FlowTab:AddDropdown('FlowTypeDropdown', {
+    Values = FlowTypeList,
+    Default = 1,
+    Multi = true,
+    Text = 'Flow Type',
+    Tooltip = 'Choose flow type',
+    Callback = function(Option)
+        UpdateDropdown(Option, SelectedFlowTypes)
+    end
+})
+Sections.FlowTab:AddSlider('MinFlowPercentageSlider', {
+    Text = 'Min Flow %',
+    Default = 0,
+    Min = 0,
+    Max = 20,
+    Rounding = 1,
+    Compact = false,
+    Callback = function(Boost)
+        getgenv().MinSelectedFlowPercentage = Boost
+    end
+})
+Sections.FlowTab:AddSlider('MaxFlowPercentageSlider', {
+    Text = 'Max Flow %',
+    Default = 20,
+    Min = 0,
+    Max = 20,
+    Rounding = 1,
+    Compact = false,
+    Callback = function(Boost)
+        getgenv().MaxSelectedFlowPercentage = Boost
+    end
+})
+function HeightSpin()
+    while getgenv().HeightSpin do
+        UpdateDropdown(Options.HeightsDropdown.Value, SelectedHeights)
+        task.wait(0.1)
+        local MyProperHeight = ProperHeight(MyPlayer:GetAttribute("HEIGHT"))
+        if table.find(SelectedHeights, MyProperHeight) and #SelectedHeights ~= 0 then
+            getgenv().HeightSpin = false
+            Toggles.HeightSpinToggle:SetValue(false)
+            print("you got "..MyProperHeight)
+            Library:Notify('you just got '..MyProperHeight)
+            SelectedHeights = {}
+            break
+        else
+            print("                         ROLLED "..ProperHeight(MyPlayer:GetAttribute("HEIGHT")))
+            local args = {
+                [1] = "HEIGHT"
+                }
+                game:GetService("ReplicatedStorage").Remotes.Functions.Roll:InvokeServer(unpack(args))
+        end
+    end
+end
+function FlowSpin()
+    while getgenv().FlowSpin do
+        task.wait(0.1)
+        local flowAttr = MyPlayer:GetAttribute("FLOWBUFF")
+        if flowAttr and typeof(flowAttr) == "string" then
+            local flowType, percentStr = flowAttr:match("^(%S+)%s+(%d+%.?%d*)%%$")
+            local percent = tonumber(percentStr)
+
+            if flowType and percent then
+                print("                         ROLLED "..flowAttr)
+                
+
+                if table.find(SelectedFlowTypes, flowType) and percent >= getgenv().MinSelectedFlowPercentage and percent <= getgenv().MaxSelectedFlowPercentage then
+                    Library:Notify("🎉 Got desired flow: " .. flowAttr)
+                    print("you got "..flowAttr)
+                    SelectedFlowTypes = {}
+                    Toggles.FlowSpinToggle:SetValue(false)
+                    getgenv().FlowSpin = false
+                    break
+
+                end
+            end
+        end
+
+        game.ReplicatedStorage.Remotes.Functions.Roll:InvokeServer("FLOWBUFF")
+    end
+end
+
+Sections.HeightTab:AddToggle('HeightSpinToggle', {
+    Text = 'Spin height',
+    Default = false,
+    Tooltip = 'Enables AutoSpin for height',
+    Callback = function(Value)
+        getgenv().HeightSpin = Value
+        if getgenv().HeightSpin then
+            task.wait(0.5)
+            HeightSpin()
+        end
+    end
+})
+Sections.FlowTab:AddToggle('FlowSpinToggle', {
+    Text = 'Spin flow',
+    Default = false,
+    Tooltip = 'Enables AutoSpin for flow',
+    Callback = function(Value)
+        getgenv().FlowSpin = Value
+        if getgenv().FlowSpin then
+            task.wait(0.5)
+            FlowSpin()
+        end
+    end
+})
+Sections.Info:AddToggle('InfYenToggle', {
+    Text = 'Infinite yen',
+    Default = false,
+    Tooltip = 'Rollback',
+    Callback = function(Value)
+        local rollbackChk = getgenv().InfYen or false
+        getgenv().InfYen = Value
+        if getgenv().InfYen then
+            while getgenv().InfYen do
+                local args = {
+                    [1] = "ZONE",
+                    [2] = "T\255"
+                }  
+                game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Functions"):WaitForChild("Keybind"):InvokeServer(unpack(args))
+                task.wait()
+                if (getgenv().HeightSpin or getgenv().FirstWeaponSpin or getgenv().SecondWeaponSpin or getgenv().FlowSpin) and (MyPlayer.Backpack.Yen.Value < 1500 or MyPlayer.Backpack.Yen.Value <= getgenv().KeepMoney) then
+                    if #game.Players:GetPlayers() <= 1 then
+                        MyPlayer:Kick('\nRejoining...')
+                        wait()
+                        TeleportService:Teleport(game.PlaceId, MyPlayer)
+                    else
+                        TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, MyPlayer)
+                    end
+                end
+            end
+        else
+            if rollbackChk then
+                local args = {
+                    [1] = "ZONE",
+                    [2] = "T"
+                }  
+                game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Functions"):WaitForChild("Keybind"):InvokeServer(unpack(args))
+            end
+        end
+    end
+})
+Sections.Info:AddSlider('KeepMoneySlider', {
+    Text = 'How much money to keep before rejoining with rollback',
+    Default = 1500,
+    Min = 0,
+    Max = MyPlayer.Backpack.Yen.Value,
+    Rounding = 0,
+    Compact = false,
+    Callback = function(Boost)
+        getgenv().KeepMoney = Boost
+    end
+})
+
+Sections.Info:AddToggle('SpinAllToggle', {
+    Text = 'Spin weapons and height',
+    Default = false,
+    Tooltip = 'Spins weapons and height',
+    Callback = function(Value)
+        if Value then
+            Toggles.HeightSpinToggle:SetValue(true)
+            getgenv().HeightSpin = true
+            Toggles.FirstWeaponAutoSpinToggle:SetValue(true)
+            getgenv().FirstWeaponSpin = true
+            Toggles.SecondWeaponAutoSpinToggle:SetValue(true)
+            getgenv().SecondWeaponSpin = true
+            Toggles.FlowSpinToggle:SetValue(true)
+            getgenv().FlowSpin = true
+        else
+            Toggles.HeightSpinToggle:SetValue(false)
+            getgenv().HeightSpin = false
+            Toggles.FirstWeaponAutoSpinToggle:SetValue(false)
+            getgenv().FirstWeaponSpin = false
+            Toggles.SecondWeaponAutoSpinToggle:SetValue(false)
+            getgenv().SecondWeaponSpin = false
+            Toggles.FlowSpinToggle:SetValue(false)
+            getgenv().FlowSpin = false
+        end
+    end
+})
+
+local CodeButton = Sections.Info:AddButton({
+    Text = 'Redeem codes',
+    Func = function()
+            local a = {"SPIKEDMAS", "1MILVISITS", "20KFAVS", "5KLIKES", "SPIKEDPATCH1", "MATCHQUEUES", "SRY4SHUTDOWN", "AUTOSBUGFIXES", "25KFAVS", "10KLIKES", "UPDATE2", "BEACH", "MATCHQUEUES", "HOTFIX1", "10KSUBS", "VALENTINESDAY", "30KFAV", "SEASON1FINALS", "LEAGUEFINALS", "SPIKEDLEAGUE", "UPDATE3", "SLOTS", "ACE", "SLOTFIXES1", "SEASON1FINALS", "SLOTS", "SPIKEDLEAGUE", "UPDATE3", "DATALOSS"}
+    
+            for _, itemName in pairs(a) do
+                game:GetService("ReplicatedStorage").Remotes.Functions.Codes:InvokeServer(itemName)
+    
+            end
+    
+    end,
+    DoubleClick = false,
+    Tooltip = 'Redeem all codes'
+})
+
+local RejoinButton = Sections.Player:AddButton({
+	Text = 'Rejoin',
+	Func = function()
+		if #game.Players:GetPlayers() <= 1 then
+			MyPlayer:Kick('\nRejoining...')
+			wait()
+			TeleportService:Teleport(game.PlaceId, MyPlayer)
+		else
+			TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, MyPlayer)
+		end
+	end,
+	DoubleClick = false,
+    Tooltip = 'Rejoins the same server'
+})
+Sections.Info:AddLabel("Your first weapon is " .. MyPlayer:GetAttribute("WEAPON"))
+Sections.Info:AddLabel("Your second weapon is " .. MyPlayer:GetAttribute("WEAPON_2"))
+Sections.Info:AddLabel("Yen:")
+local YenLabel = Sections.Info:AddLabel(MyPlayer.Backpack.Yen.Value .. "¥")
+local FlowLabel = Sections.Flow:AddLabel("Flow:"..MyPlayer.Backpack.Flow.Value)
+--local WeaponSpinsLabel = Sections.Info:AddLabel("You can afford " .. math.modf(MyPlayer.Backpack.Yen.Value()/2500) .. " weapon spins")
+MyPlayer.Backpack.Yen.Changed:Connect(function()
+    YenLabel:SetText(MyPlayer.Backpack.Yen.Value .. "¥")
+    --WeaponSpinsLabel:SetText("You can afford " .. math.modf(MyPlayer.Backpack.Yen.Value()/2500) .. " weapon spins")
+end)
+MyPlayer.Backpack.Flow.Changed:Connect(function()
+    FlowLabel:SetText("Flow:"..MyPlayer.Backpack.Flow.Value)
+end)
+Library.KeybindFrame.Visible = true
+Sections.Menu:AddButton('Unload', function() Library:Unload() end)
+Sections.Menu:AddLabel('Menu bind'):AddKeyPicker('MenuKeybind', { Default = 'End', NoUI = true, Text = 'Menu keybind' })
+Library.ToggleKeybind = Options.MenuKeybind
+ThemeManager:SetLibrary(Library)
+SaveManager:SetLibrary(Library)
+
+SaveManager:IgnoreThemeSettings()
+SaveManager:SetIgnoreIndexes({ 'MenuKeybind' })
+
+ThemeManager:SetFolder('Vevo Hub')
+SaveManager:SetFolder('Vevo Hub/Spiked')
+
+SaveManager:BuildConfigSection(Tabs['UI Settings'])
+ThemeManager:ApplyToTab(Tabs['UI Settings'])
+
+SaveManager:LoadAutoloadConfig()
+    
+getgenv().MinSelectedFlowPercentage = Options.MinFlowPercentageSlider.Value
+getgenv().MaxSelectedFlowPercentage = Options.MaxFlowPercentageSlider.Value
