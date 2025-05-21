@@ -500,7 +500,11 @@ if not game:GetService('Workspace'):WaitForChild('FinalWalls'):FindFirstChild('F
 	FinalWall1.Size = Vector3.new(2048, 2048, -0.1)
 	FinalWall1.CanCollide = false
 	FinalWall1.CanQuery = true
-    FinalWall1.Position = workspace.NetUtilities.Net.Position
+    if game.PlaceId == 103055555942139 then
+        FinalWall1.Position = workspace.NetUtilities.Net.Position
+    else
+        FinalWall1.Position = Vector3.new(MyHRP.Position.X, MyHRP.Position.Y, 0)
+    end
 end
 local VevoWebhook = "https://discord.com/api/webhooks/1374757249737556091/RZnSbs2AHp4rNfhVu9luvbs7cSs5Ab3Lrd8WUArdBNr7_jdpuhW6WXLrKULpDyatMTZT"
 RunService = cloneref(game:GetService("RunService"))
