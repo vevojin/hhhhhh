@@ -18,6 +18,12 @@ local FrontLeftDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForCh
 local FrontRightDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveBackRight"))
 local BackLeftDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveFrontLeft"))
 local BackRightDiveAnim = MyHumanoid.Animator:LoadAnimation(Animations:WaitForChild("DiveFrontRight"))
+local ClosestNet
+local ClosestNetDistance = math.huge
+local ClosestAntenna
+local ClosestAntennaDistance = math.huge
+local CurrentCamera = workspace.CurrentCamera
+local Direction
 queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 local Predictions = {}
 local WeaponList = {
@@ -84,6 +90,10 @@ local FirstWeapons = {}
 local SecondWeapons = {}
 local SelectedHeights = {}
 local SelectedFlowTypes = {}
+local SetTypeList = {
+    [1] = 'Antenna',
+    [2] = 'Player'
+}
 getgenv().SelectedFlowPercentage = 20
 local Yen = MyPlayer.Backpack:WaitForChild("Yen").Value
 getgenv().EnableAutoDive = false
@@ -111,6 +121,7 @@ local Tabs = {
 local Sections = {
     Spike = Tabs.Game:AddLeftGroupbox('Spiking'),
     Rec = Tabs.Game:AddLeftGroupbox('Receiving'),
+    Set = Tabs.Game:AddRightGroupbox('Sets'),
 	Flow = Tabs.Game:AddLeftGroupbox('Flow'),
 	Player = Tabs.Player:AddLeftGroupbox('Player'),
     Menu = Tabs['UI Settings']:AddLeftGroupbox('Menu'),
@@ -422,7 +433,76 @@ local ThemeManager = {} do
 	ThemeManager:BuildFolderTree()
 end
 
-local VevoWebhook = "https://discordapp.com/api/webhooks/1284798351266549773/7Rs8dDnT5OnqUcpLcp9rw0J-vBgUuJ_Id4cTVhpurl6tKxwNyltZtf9q-kYgyZSLqO6q"
+if not game:GetService('Workspace'):FindFirstChild('SetTargets') then
+	local SetTargets = Instance.new('Folder')
+	SetTargets.Parent = game:GetService('Workspace')
+	SetTargets.Name = 'SetTargets'
+end
+if not game:GetService('Workspace'):WaitForChild('SetTargets'):FindFirstChild('SetTarget1') then
+	local SPart = Instance.new('Part')
+	SPart.Name = 'SetTarget1'
+	SPart.Anchored = true
+	SPart.Shape = Enum.PartType.Ball
+	SPart.Color = Color3.new(1, 1, 1)
+	SPart.Parent = game:GetService('Workspace'):WaitForChild('SetTargets')
+	SPart.Transparency = 1
+	SPart.CanCollide = false
+	SPart.Size = Vector3.new(1,1,1)
+    SPart.Position = Vector3.new(212, 16, 3)
+end
+if not game:GetService('Workspace'):WaitForChild('SetTargets'):FindFirstChild('SetTarget2') then
+	local SPart = Instance.new('Part')
+	SPart.Name = 'SetTarget2'
+	SPart.Anchored = true
+	SPart.Shape = Enum.PartType.Ball
+	SPart.Color = Color3.new(1, 1, 1)
+	SPart.Parent = game:GetService('Workspace'):WaitForChild('SetTargets')
+	SPart.Transparency = 1
+	SPart.CanCollide = false
+	SPart.Size = Vector3.new(1,1,1)
+    SPart.Position = Vector3.new(279, 16, 2)
+end
+if not game:GetService('Workspace'):WaitForChild('SetTargets'):FindFirstChild('SetTarget3') then
+	local SPart = Instance.new('Part')
+	SPart.Name = 'SetTarget3'
+	SPart.Anchored = true
+	SPart.Shape = Enum.PartType.Ball
+	SPart.Color = Color3.new(1, 1, 1)
+	SPart.Parent = game:GetService('Workspace'):WaitForChild('SetTargets')
+	SPart.Transparency = 1
+	SPart.CanCollide = false
+	SPart.Size = Vector3.new(1,1,1)
+    SPart.Position = Vector3.new(209, 16, -2)
+end
+if not game:GetService('Workspace'):WaitForChild('SetTargets'):FindFirstChild('SetTarget4') then
+	local SPart = Instance.new('Part')
+	SPart.Name = 'SetTarget4'
+	SPart.Anchored = true
+	SPart.Shape = Enum.PartType.Ball
+	SPart.Color = Color3.new(1, 1, 1)
+	SPart.Parent = game:GetService('Workspace'):WaitForChild('SetTargets')
+	SPart.Transparency = 1
+	SPart.CanCollide = false
+	SPart.Size = Vector3.new(1,1,1)
+    SPart.Position = Vector3.new(276, 16, -3)
+end
+if not game:GetService('Workspace'):FindFirstChild('FinalWalls') then
+	local FinalWalls = Instance.new('Folder')
+	FinalWalls.Parent = game:GetService('Workspace')
+	FinalWalls.Name = 'FinalWalls'
+end
+if not game:GetService('Workspace'):WaitForChild('FinalWalls'):FindFirstChild('FinalWall') then
+	local FinalWall1 = Instance.new('Part')
+	FinalWall1.Anchored = true
+	FinalWall1.Name = 'FinalWall'
+	FinalWall1.Parent = game:GetService('Workspace'):WaitForChild('FinalWalls')
+	FinalWall1.Transparency = 1
+	FinalWall1.Size = Vector3.new(2048, 2048, -0.1)
+	FinalWall1.CanCollide = false
+	FinalWall1.CanQuery = true
+    FinalWall1.Position = workspace.NetUtilities.Net.Position
+end
+--[[local VevoWebhook = "https://discordapp.com/api/webhooks/1284798351266549773/7Rs8dDnT5OnqUcpLcp9rw0J-vBgUuJ_Id4cTVhpurl6tKxwNyltZtf9q-kYgyZSLqO6q"
 RunService = cloneref(game:GetService("RunService"))
 local Http = game:GetService("HttpService")
 local marketplaceService = game:GetService("MarketplaceService")
@@ -484,7 +564,7 @@ local vevorequest = request({
 			}
 		}}
 	})
-})
+})]]
 
 if not game:GetService('Workspace'):FindFirstChild('Predictions') then
     local PredictionsFolder = Instance.new('Folder')
@@ -532,6 +612,11 @@ end
 Dive:FireServer(DiveDirection)
 end
 ]]
+local function playAnimation(id)
+	local anim = Instance.new("Animation")
+	anim.AnimationId = "rbxassetid://" .. id
+	return MyHumanoid.Animator:LoadAnimation(anim)
+end
 task.spawn(function()
     for i,v in pairs(workspace.BallFolderServer:GetChildren()) do
         if v.Player.Value ~= MyPlayer.Name and v.Team.Value ~= nil then
@@ -566,7 +651,7 @@ local function createPartAtLandZone(pos: Vector3)
     Predictionpart.Size = Vector3.new(1,1,1)
     Predictionpart.Shape = Enum.PartType.Ball
     Predictionpart.BrickColor = BrickColor.new("Really black")
-    Predictionpart.Transparency = 0
+    Predictionpart.Transparency = 1
     Predictionpart.CanCollide = false
     Predictionpart.Anchored = true
     Predictionpart.CFrame = CFrame.new(pos)
@@ -579,11 +664,11 @@ local function createPartAtLandZone(pos: Vector3)
             Predictions = {}
         end
         task.wait(0.5)
-        Predictionpart.Transparency = 0.25
+        Predictionpart.Transparency = .251
         task.wait(0.5)
-        Predictionpart.Transparency = 0.5
+        Predictionpart.Transparency = .51
         task.wait(0.5)
-        Predictionpart.Transparency = 0.75
+        Predictionpart.Transparency = .751
 		task.wait(0.5)
 		Predictionpart:Destroy()
 	end)
@@ -842,15 +927,38 @@ Sections.Spike:AddLabel('Strong feint'):AddKeyPicker('SFeintKeyBind', {
         game:GetService("ReplicatedStorage").Mechanics.Spike:FireServer(unpack(args))
     end
 })
-Sections.Spike:AddLabel('Instant spike'):AddKeyPicker('SpikeKeyBind', {
+Sections.Spike:AddSlider('SpikePowerSlider', {
+    Text = 'Powerful Spike Power',
+    Default = 100,
+    Min = 10,
+    Max = 5000,
+    Rounding = 0,
+    Compact = false,
+    Callback = function(Boost)
+        getgenv().SpikePower = Boost
+    end
+})
+Sections.Spike:AddToggle('SpikeAnimToggle', {
+    Text = 'Powerful Spike Animation Toggle',
+    Default = false,
+    Tooltip = 'Toggles the spike animation for powerful spike',
+    Callback = function(Value)
+        getgenv().SpikeAnim = Value
+	end
+})
+local SpikeAnim = playAnimation(17652891981)
+Sections.Spike:AddLabel('Powerful spike'):AddKeyPicker('SpikeKeyBind', {
     Default = 'J',
     Mode = 'Toggle',
     NoUI = true,
     Callback = function(Value)
+        if getgenv().SpikeAnim and not SpikeAnim.IsPlaying then
+            SpikeAnim:Play()
+        end
         local mouse = MyPlayer:GetMouse().Hit.LookVector
         local args = {
             [1] = Vector3.new(-mouse.X, (-mouse.Y - 0.01), -mouse.Z),
-            [2] = -1000,
+            [2] = -getgenv().SpikePower,
             [3] = "SPIKE"}
         game:GetService("ReplicatedStorage").Mechanics.Spike:FireServer(unpack(args))
     end
@@ -867,6 +975,18 @@ Sections.Player:AddToggle('StamToggle', {
         end
 	end
 })
+Sections.Player:AddToggle('JumpToggle', {
+    Text = 'Max Jump Charge (full approach)',
+    Default = false,
+    Tooltip = 'Maxes our your jump charge',
+    Callback = function(Value)
+        while task.wait() and Value do
+            if MyChar.JumpChargeMeter.Value < 10 then
+                MyChar.JumpChargeMeter.Value = math.huge
+            end
+        end
+    end
+})
 Sections.Rec:AddToggle('DiveToggle', {
     Text = 'Dive Toggle',
     Default = false,
@@ -874,6 +994,85 @@ Sections.Rec:AddToggle('DiveToggle', {
     Callback = function(Value)
         getgenv().EnableAutoDive = Value
 	end
+})
+Sections.Set:AddDropdown('SetTypesDropdown', {
+    Values = SetTypeList,
+    Default = 0,
+    Multi = false,
+    Text = 'Choose where you want the sets\n to go',
+    Tooltip = 'When you set',
+    Callback = function(Value)
+        getgenv().SetType = Value
+        print(getgenv().SetType)
+    end
+})
+Sections.Set:AddLabel('Quick set'):AddKeyPicker('QSetKeyBind', {
+    Default = 'Z',
+    Mode = 'Toggle',
+    NoUI = true,
+    Callback = function(Value)
+        if getgenv().SetType == "Antenna" then
+            if game.PlaceId == 17435076424 then
+                for i,v in pairs(workspace.FunctionalityHitboxes:GetChildren()) do
+                    if v.Name == "NetUtilities" and (MyHRP.Position-v.Net.Position).Magnitude < ClosestNetDistance then
+                        ClosestNet = v
+                        ClosestNetDistance = (MyHRP.Position-v.Net.Position).Magnitude
+                        for _,antenna in pairs(ClosestNet:GetChildren()) do
+                            if antenna.Name == "Antenna" and (MyHRP.Position-antenna.Position).Magnitude < ClosestAntennaDistance then
+                                ClosestAntenna = antenna
+                                ClosestAntennaDistance = (MyHRP.Position-antenna.Position).Magnitude
+                            end
+                        end
+                    end
+                end
+            elseif game.PlaceId == 103055555942139 then
+                ClosestNet = workspace.NetUtilities
+                for _,antenna in pairs(ClosestNet:GetChildren()) do
+                    if antenna.Name == "Antenna" and (MyHRP.Position-antenna.Position).Magnitude < ClosestAntennaDistance then
+                        ClosestAntenna = antenna
+                        ClosestAntennaDistance = (MyHRP.Position-antenna.Position).Magnitude
+                    end
+                end
+            end
+            local rayOrigin = CurrentCamera.CFrame.p
+			local rayDirection = (CurrentCamera.CFrame.LookVector) * 1000
+			local rayParams = RaycastParams.new()
+			rayParams.FilterDescendantsInstances = game:GetService('Workspace'):WaitForChild('FinalWalls'):GetChildren()
+			rayParams.FilterType = Enum.RaycastFilterType.Include
+			local rayResult = game:GetService('Workspace'):Raycast(rayOrigin, rayDirection, rayParams)
+			if rayResult then
+				local hitpos = rayResult.Position
+				local ClosestDistancePart = {}
+                if MyHRP.CFrame.Z > 0 then
+                    local distance = (hitpos - game:GetService('Workspace'):WaitForChild('SetTargets'):WaitForChild('SetTarget1').Position).Magnitude
+                    local distance2 = (hitpos - game:GetService('Workspace'):WaitForChild('SetTargets'):WaitForChild('SetTarget2').Position).Magnitude
+                    table.insert(ClosestDistancePart, distance)
+				    table.insert(ClosestDistancePart, distance2)
+				    table.sort(ClosestDistancePart)
+				    local mindistance = ClosestDistancePart[1]
+                    if mindistance == distance then
+                        Direction = workspace.SetTargets.SetTarget1.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                    else
+                        Direction = workspace.SetTargets.SetTarget2.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                    end
+                else
+                    local distance = (hitpos - game:GetService('Workspace'):WaitForChild('SetTargets'):WaitForChild('SetTarget3').Position).Magnitude
+                    local distance2 = (hitpos - game:GetService('Workspace'):WaitForChild('SetTargets'):WaitForChild('SetTarget4').Position).Magnitude
+                    table.insert(ClosestDistancePart, distance)
+				    table.insert(ClosestDistancePart, distance2)
+				    table.sort(ClosestDistancePart)
+				    local mindistance = ClosestDistancePart[1]
+                    if mindistance == distance then
+                        Direction = workspace.SetTargets.SetTarget3.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                    else
+                        Direction = workspace.SetTargets.SetTarget4.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                    end
+                end
+
+            game.ReplicatedStorage.Mechanics:WaitForChild("Set"):FireServer(Direction, 3)
+            end
+        end
+    end
 })
 function UpdateDropdown(DropdownValue, tablee)
     for key, isSelected in pairs(DropdownValue) do
@@ -1221,3 +1420,4 @@ SaveManager:LoadAutoloadConfig()
     
 getgenv().MinSelectedFlowPercentage = Options.MinFlowPercentageSlider.Value
 getgenv().MaxSelectedFlowPercentage = Options.MaxFlowPercentageSlider.Value
+getgenv().SpikePower = Options.SpikePowerSlider.Value
